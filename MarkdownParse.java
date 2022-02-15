@@ -19,9 +19,8 @@ public class MarkdownParse {
             currentIndex = closeParen + 1;
 
             System.out.println(currentIndex);
-            if (currentIndex == 105) {
-                break;
-            }
+            
+            
         }
         return toReturn;
     }
