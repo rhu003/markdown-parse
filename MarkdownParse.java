@@ -19,7 +19,9 @@ public class MarkdownParse {
             currentIndex = closeParen + 1;
 
             System.out.println(currentIndex);
-            
+            if (openParen == -1 || closeParen == -1 || nextOpenBracket == -1 || nextCloseBracket == -1) {
+                break;
+            }
             
         }
         return toReturn;
